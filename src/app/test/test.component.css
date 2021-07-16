@@ -1,0 +1,77 @@
+/* Style the tab
+.box{
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
+  margin: 20px auto;
+  position: relative;
+
+}
+
+.item1,.item2{
+  width: 150px;
+  height: 150px;
+}
+
+.item1{
+  background-color: darkcyan;
+  position: sticky;
+  
+  
+  top: 0;
+  
+
+}
+
+.item2{
+  background-color: darkred;
+  bottom: 50px;
+  top: 30px;
+}
+
+nav{
+  background-color: brown;
+  color: aquamarine;
+  position: sticky;
+  top: 0%;
+}
+
+p{
+  width: 30%;
+} */
+
+.cl1{
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.container{
+  background-color: rgb(207, 201, 201);
+}
+.r1{
+  background-color: teal;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

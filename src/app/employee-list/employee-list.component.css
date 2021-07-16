@@ -1,0 +1,29 @@
+.container{
+    background-color:beige;
+}
+
+h2{
+    text-align: center;
+}
+
+/* .row{
+    border-style: solid;
+    border-color: black;
+}
+
+.col-md{
+    border-style: solid;
+    border-color: black;
+} */
+
+div{
+    border:double;
+}
+
+#add{
+   margin-right: 0%;
+}
+
+.test2{
+    background-color: brown;
+}

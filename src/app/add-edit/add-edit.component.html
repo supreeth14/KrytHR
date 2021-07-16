@@ -1,0 +1,38 @@
+<!-- <p>add-edit works!</p> -->
+<div class="container-fluid">
+    <!-- #userForm="ngForm" -->
+    <form #userForm="ngForm">
+        <div class="form-group">
+            <label>ID</label>
+            <input type="number" #id="ngModel" required [class.is-invalid]="id.invalid && id.touched "
+             class="form-control" name="id" [(ngModel)]="employee && employee.employeeId">
+             <!-- <small class="text-danger" [class.d-none]="id.vallid||id.untouched"></small> -->
+        </div>
+        {{employee?.employeeId}}
+
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="ename" [(ngModel)]="employee && employee.name">
+        </div>
+        {{employee?.name}}
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" [(ngModel)]="employee && employee.email">
+        </div>
+        <div>
+            <label>age</label>
+            <input type="text" name="age" [(ngModel)]="employee && employee.age">
+        </div>
+        <div>
+            <label>Address</label>
+            <input type="text" name="address" [(ngModel)]="employee && employee.address">
+        </div>
+        <button (click)="onAdd()">Add</button> 
+        <button (click)="onEditUpdate()">Save</button>
+        <button (click)="onEditCancel()">cancel</button>
+    </form>
+
+    {{empId}}
+
+</div>
